@@ -52,7 +52,7 @@ public class MoviesManagerTest {
 
     @Test
     public void addingSeveralMovies() {
-        MoviesManager manager = new MoviesManager(7);
+        MoviesManager manager = new MoviesManager(10);
         manager.add("Ferst");
         manager.add("Second");
         manager.add("Third");
@@ -60,10 +60,30 @@ public class MoviesManagerTest {
         manager.add("Fifth");
 
 
-        String[] expected = {"Ferst", "Second", "Third", "Fourth", "Fifth"};
-        String[] actual = manager.findAll();
+        String[] expected = {"Fifth", "Fourth", "Third", "Second", "Ferst"};
+        String[] actual = manager.findLast();
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
+    @Test
+    public void addingAllMoviesFindLast() {
+        MoviesManager manager = new MoviesManager(10);
+        manager.add("Ferst");
+        manager.add("Second");
+        manager.add("Third");
+        manager.add("Fourth");
+        manager.add("Fifth");
+        manager.add("Sixth");
+        manager.add("Seventh");
+        manager.add("Eighth");
+        manager.add("Ninth");
+        manager.add("Tenth");
+
+        String[] expected = {"Tenth", "Ninth", "Eighth", "Seventh", "Sixth", "Fifth", "Fourth", "Third", "Second", "Ferst"};
+        String[] actual = manager.findLast();
+        Assertions.assertArrayEquals(expected, actual);
+    }
+
 
 }

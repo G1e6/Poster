@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce9df26b-7efe-4061-b33a-76b361686133" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ru/netology/Afisha/service/MoviesManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/ru/netology/Afisha/service/MoviesManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/ru/netology/Afisha/service/MoviesManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ru/netology/Afisha/service/MoviesManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +45,27 @@
       <recent name="ru.ru.netology.Afisha.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoviesManagerTest.addingSeveralMovies">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MoviesManagerTest.addingAllMoviesFindLast">
+    <configuration name="MoviesManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Afisha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ru.netology.Afisha.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.ru.netology.Afisha.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.ru.netology.Afisha.service.MoviesManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoviesManagerTest.addingAllMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Afisha" />
       <extension name="coverage">
@@ -68,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoviesManagerTest.addingMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoviesManagerTest.addingAllMoviesFindLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Afisha" />
       <extension name="coverage">
         <pattern>
@@ -78,7 +92,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.ru.netology.Afisha.service" />
       <option name="MAIN_CLASS_NAME" value="ru.ru.netology.Afisha.service.MoviesManagerTest" />
-      <option name="METHOD_NAME" value="addingMovies" />
+      <option name="METHOD_NAME" value="addingAllMoviesFindLast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,29 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoviesManagerTest.noAddingMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Afisha" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.ru.netology.Afisha.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.ru.netology.Afisha.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.ru.netology.Afisha.service.MoviesManagerTest" />
-      <option name="METHOD_NAME" value="noAddingMovies" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoviesManagerTest.addingAllMoviesFindLast" />
         <item itemvalue="JUnit.MoviesManagerTest.addingSeveralMovies" />
+        <item itemvalue="JUnit.MoviesManagerTest" />
         <item itemvalue="JUnit.MoviesManagerTest.addingAllMovies" />
         <item itemvalue="JUnit.MoviesManagerTest.addingMultipleMovies" />
-        <item itemvalue="JUnit.MoviesManagerTest.noAddingMovies" />
-        <item itemvalue="JUnit.MoviesManagerTest.addingMovies" />
       </list>
     </recent_temporary>
   </component>
