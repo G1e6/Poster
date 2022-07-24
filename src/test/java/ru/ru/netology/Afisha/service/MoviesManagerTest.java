@@ -32,7 +32,7 @@ public class MoviesManagerTest {
 
     @Test
     public void addingAllMovies() {
-        MoviesManager manager = new MoviesManager(10);
+        MoviesManager manager = new MoviesManager(12);
         manager.add("Ferst");
         manager.add("Second");
         manager.add("Third");
@@ -43,8 +43,10 @@ public class MoviesManagerTest {
         manager.add("Eighth");
         manager.add("Ninth");
         manager.add("Tenth");
+        manager.add("Eleven");
+        manager.add("Twelve");
 
-        String[] expected = {"Ferst", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eighth", "Ninth", "Tenth"};
+        String[] expected = {"Ferst", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eighth", "Ninth", "Tenth", "Eleven", "Twelve"};
         String[] actual = manager.findAll();
 
         Assertions.assertArrayEquals(expected, actual);
@@ -52,7 +54,7 @@ public class MoviesManagerTest {
 
     @Test
     public void addingSeveralMovies() {
-        MoviesManager manager = new MoviesManager(10);
+        MoviesManager manager = new MoviesManager(5);
         manager.add("Ferst");
         manager.add("Second");
         manager.add("Third");
@@ -68,7 +70,7 @@ public class MoviesManagerTest {
 
     @Test
     public void addingAllMoviesFindLast() {
-        MoviesManager manager = new MoviesManager(10);
+        MoviesManager manager = new MoviesManager(11);
         manager.add("Ferst");
         manager.add("Second");
         manager.add("Third");
@@ -79,8 +81,9 @@ public class MoviesManagerTest {
         manager.add("Eighth");
         manager.add("Ninth");
         manager.add("Tenth");
+        manager.add("Eleven");
 
-        String[] expected = {"Tenth", "Ninth", "Eighth", "Seventh", "Sixth", "Fifth", "Fourth", "Third", "Second", "Ferst"};
+        String[] expected = {"Eleven", "Tenth", "Ninth", "Eighth", "Seventh", "Sixth", "Fifth", "Fourth", "Third", "Second"};
         String[] actual = manager.findLast();
         Assertions.assertArrayEquals(expected, actual);
     }

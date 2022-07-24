@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce9df26b-7efe-4061-b33a-76b361686133" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ru/netology/Afisha/service/MoviesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ru/netology/Afisha/service/MoviesManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/ru/netology/Afisha/service/MoviesManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/ru/netology/Afisha/service/MoviesManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "/Users/user/Desktop/java/Afisha/src/main/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/user/Desktop/java/Afisha/src/main/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.ru.netology.Afisha.service" />
@@ -134,9 +135,9 @@
       <list>
         <item itemvalue="JUnit.MoviesManagerTest.addingAllMoviesFindLast" />
         <item itemvalue="JUnit.MoviesManagerTest.addingSeveralMovies" />
-        <item itemvalue="JUnit.MoviesManagerTest" />
         <item itemvalue="JUnit.MoviesManagerTest.addingAllMovies" />
         <item itemvalue="JUnit.MoviesManagerTest.addingMultipleMovies" />
+        <item itemvalue="JUnit.MoviesManagerTest" />
       </list>
     </recent_temporary>
   </component>
