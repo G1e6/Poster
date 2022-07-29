@@ -51,22 +51,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MoviesManagerTest.addingAllMoviesFindLast">
-    <configuration name="MoviesManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Afisha" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.ru.netology.Afisha.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.ru.netology.Afisha.service" />
-      <option name="MAIN_CLASS_NAME" value="ru.ru.netology.Afisha.service.MoviesManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MoviesManagerTest.noAddingAllMoviesFindLast">
     <configuration name="MoviesManagerTest.addingAllMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Afisha" />
       <extension name="coverage">
@@ -131,13 +116,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoviesManagerTest.noAddingAllMoviesFindLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Afisha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.ru.netology.Afisha.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.ru.netology.Afisha.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.ru.netology.Afisha.service.MoviesManagerTest" />
+      <option name="METHOD_NAME" value="noAddingAllMoviesFindLast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoviesManagerTest.noAddingAllMoviesFindLast" />
         <item itemvalue="JUnit.MoviesManagerTest.addingAllMoviesFindLast" />
         <item itemvalue="JUnit.MoviesManagerTest.addingSeveralMovies" />
         <item itemvalue="JUnit.MoviesManagerTest.addingAllMovies" />
         <item itemvalue="JUnit.MoviesManagerTest.addingMultipleMovies" />
-        <item itemvalue="JUnit.MoviesManagerTest" />
       </list>
     </recent_temporary>
   </component>
